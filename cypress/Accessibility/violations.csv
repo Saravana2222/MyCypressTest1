@@ -1,0 +1,146 @@
+
+ ************** PageName: SauceDemo Home page ******************
+ VIOLATION # 1
+ IMPACT: minor
+ DESCRIPTION: Ensures every id attribute value is unique
+ HELP TEXT: id attribute value must be unique
+ TAGS: cat.parsing,wcag2a,wcag411
+ FAILURECOUNT: 1
+ 
+ FAILEDCOMPONENT: 1: ["#contents_wrapper > div:nth-child(2)"]
+ FAILEDCOMPONENTSOURCE: 1: "<div id=\"inventory_container\">"
+ FAILEDCOMPONENT FIX: 1: "Fix any of the following:\n  Document has multiple static elements with the same id attribute: inventory_container"
+ 
+ 
+
+ VIOLATION # 2
+ IMPACT: moderate
+ DESCRIPTION: Ensures the document has a main landmark
+ HELP TEXT: Document should have one main landmark
+ TAGS: cat.semantics,best-practice
+ FAILURECOUNT: 1
+ 
+ FAILEDCOMPONENT: 1: ["html"]
+ FAILEDCOMPONENTSOURCE: 1: "<html lang=\"en\">"
+ FAILEDCOMPONENT FIX: 1: "Fix all of the following:\n  Document does not have a main landmark"
+ 
+ 
+
+ VIOLATION # 3
+ IMPACT: moderate
+ DESCRIPTION: Ensure that the page, or at least one of its frames contains a level-one heading
+ HELP TEXT: Page should contain a level-one heading
+ TAGS: cat.semantics,best-practice
+ FAILURECOUNT: 1
+ 
+ FAILEDCOMPONENT: 1: ["html"]
+ FAILEDCOMPONENTSOURCE: 1: "<html lang=\"en\">"
+ FAILEDCOMPONENT FIX: 1: "Fix all of the following:\n  Page must have a level-one heading"
+ 
+ 
+
+ VIOLATION # 4
+ IMPACT: moderate
+ DESCRIPTION: Ensures all page content is contained by landmarks
+ HELP TEXT: All page content should be contained by landmarks
+ TAGS: cat.keyboard,best-practice
+ FAILURECOUNT: 21
+ 
+ FAILEDCOMPONENT: 1: [".bm-icon"]
+ FAILEDCOMPONENTSOURCE: 1: "<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDkuMC1jMDAwIDc5LmRhNGE3ZTVlZiwgMjAyMi8xMS8yMi0xMzo1MDowNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDI0LjEgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QTA3QzBCMEVBRUYzMTFFREIwRThFMzc3OTlDRTMyNUIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QTA3QzBCMEZBRUYzMTFFREIwRThFMzc3OTlDRTMyNUIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpBMDdDMEIwQ0FFRjMxMUVEQjBFOEUzNzc5OUNFMzI1QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpBMDdDMEIwREFFRjMxMUVEQjBFOEUzNzc5OUNFMzI1QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pq0LVkQAAAERSURBVHjaYvz//z/DQAImhgEGow5gARE379wx8IuN2f/2/XsBeliqqqj4YMHkKYHqKioXwCEwb+mSAnpZDgK3799XmL9sWT48CrQ1NS/QO+gtTUwOgmhGWDY8c+GCw9NnzxToYbm0lNQDEwODAygOGM2Gow4Y0ILo+YsXCgtWLM//+OkzXcoCfj7eDwkRURMlJcQfgB0wf/mygr6ZM/Pp6XNg7mOsKiwqGBxRkBAZNQFEf/r8hZ8elvLx8nxMiIyeMFoQjTpg8BREA1kdgx2wcdu2hOSiwvn09HlfY1NhXHj4BHAUHDt9yoHeQX/t5k19eBpIio6ZAGoo0styYUHBD4lRURNHC6JRB4w6AAQAAgwA/fRn191dMT8AAAAASUVORK5CYII=\" srcset=\"/static/media/menu3x.52cc17a3.svg\" alt=\"Open Menu\" class=\"bm-icon\" style=\"width: 100%; height: 100%;\">"
+ FAILEDCOMPONENT FIX: 1: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 2: [".header_label"]
+ FAILEDCOMPONENTSOURCE: 2: "<div class=\"header_label\"><div class=\"app_logo\">Swag Labs</div></div>"
+ FAILEDCOMPONENT FIX: 2: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 3: [".header_secondary_container"]
+ FAILEDCOMPONENTSOURCE: 3: "<div class=\"header_secondary_container\">"
+ FAILEDCOMPONENT FIX: 3: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 4: [".inventory_item:nth-child(1) > .inventory_item_img"]
+ FAILEDCOMPONENTSOURCE: 4: "<div class=\"inventory_item_img\"><a href=\"#\" id=\"item_4_img_link\"><img alt=\"Sauce Labs Backpack\" class=\"inventory_item_img\" src=\"/static/media/sauce-backpack-1200x1500.0a0b85a3.jpg\"></a></div>"
+ FAILEDCOMPONENT FIX: 4: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 5: [".inventory_item:nth-child(1) > .inventory_item_description > .inventory_item_label"]
+ FAILEDCOMPONENTSOURCE: 5: "<div class=\"inventory_item_label\">"
+ FAILEDCOMPONENT FIX: 5: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 6: [".inventory_item:nth-child(1) > .inventory_item_description > .pricebar > .inventory_item_price"]
+ FAILEDCOMPONENTSOURCE: 6: "<div class=\"inventory_item_price\">$29.99</div>"
+ FAILEDCOMPONENT FIX: 6: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 7: [".inventory_item:nth-child(2) > .inventory_item_img"]
+ FAILEDCOMPONENTSOURCE: 7: "<div class=\"inventory_item_img\"><a href=\"#\" id=\"item_0_img_link\"><img alt=\"Sauce Labs Bike Light\" class=\"inventory_item_img\" src=\"/static/media/bike-light-1200x1500.37c843b0.jpg\"></a></div>"
+ FAILEDCOMPONENT FIX: 7: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 8: [".inventory_item:nth-child(2) > .inventory_item_description > .inventory_item_label"]
+ FAILEDCOMPONENTSOURCE: 8: "<div class=\"inventory_item_label\">"
+ FAILEDCOMPONENT FIX: 8: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 9: [".inventory_item:nth-child(2) > .inventory_item_description > .pricebar > .inventory_item_price"]
+ FAILEDCOMPONENTSOURCE: 9: "<div class=\"inventory_item_price\">$9.99</div>"
+ FAILEDCOMPONENT FIX: 9: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 10: [".inventory_item:nth-child(3) > .inventory_item_img"]
+ FAILEDCOMPONENTSOURCE: 10: "<div class=\"inventory_item_img\"><a href=\"#\" id=\"item_1_img_link\"><img alt=\"Sauce Labs Bolt T-Shirt\" class=\"inventory_item_img\" src=\"/static/media/bolt-shirt-1200x1500.c2599ac5.jpg\"></a></div>"
+ FAILEDCOMPONENT FIX: 10: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 11: [".inventory_item:nth-child(3) > .inventory_item_description > .inventory_item_label"]
+ FAILEDCOMPONENTSOURCE: 11: "<div class=\"inventory_item_label\">"
+ FAILEDCOMPONENT FIX: 11: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 12: [".inventory_item:nth-child(3) > .inventory_item_description > .pricebar > .inventory_item_price"]
+ FAILEDCOMPONENTSOURCE: 12: "<div class=\"inventory_item_price\">$15.99</div>"
+ FAILEDCOMPONENT FIX: 12: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 13: [".inventory_item:nth-child(4) > .inventory_item_img"]
+ FAILEDCOMPONENTSOURCE: 13: "<div class=\"inventory_item_img\"><a href=\"#\" id=\"item_5_img_link\"><img alt=\"Sauce Labs Fleece Jacket\" class=\"inventory_item_img\" src=\"/static/media/sauce-pullover-1200x1500.51d7ffaf.jpg\"></a></div>"
+ FAILEDCOMPONENT FIX: 13: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 14: [".inventory_item:nth-child(4) > .inventory_item_description > .inventory_item_label"]
+ FAILEDCOMPONENTSOURCE: 14: "<div class=\"inventory_item_label\">"
+ FAILEDCOMPONENT FIX: 14: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 15: [".inventory_item:nth-child(4) > .inventory_item_description > .pricebar > .inventory_item_price"]
+ FAILEDCOMPONENTSOURCE: 15: "<div class=\"inventory_item_price\">$49.99</div>"
+ FAILEDCOMPONENT FIX: 15: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 16: [".inventory_item:nth-child(5) > .inventory_item_img"]
+ FAILEDCOMPONENTSOURCE: 16: "<div class=\"inventory_item_img\"><a href=\"#\" id=\"item_2_img_link\"><img alt=\"Sauce Labs Onesie\" class=\"inventory_item_img\" src=\"/static/media/red-onesie-1200x1500.2ec615b2.jpg\"></a></div>"
+ FAILEDCOMPONENT FIX: 16: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 17: [".inventory_item:nth-child(5) > .inventory_item_description > .inventory_item_label"]
+ FAILEDCOMPONENTSOURCE: 17: "<div class=\"inventory_item_label\">"
+ FAILEDCOMPONENT FIX: 17: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 18: [".inventory_item:nth-child(5) > .inventory_item_description > .pricebar > .inventory_item_price"]
+ FAILEDCOMPONENTSOURCE: 18: "<div class=\"inventory_item_price\">$7.99</div>"
+ FAILEDCOMPONENT FIX: 18: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 19: [".inventory_item:nth-child(6) > .inventory_item_img"]
+ FAILEDCOMPONENTSOURCE: 19: "<div class=\"inventory_item_img\"><a href=\"#\" id=\"item_3_img_link\"><img alt=\"Test.allTheThings() T-Shirt (Red)\" class=\"inventory_item_img\" src=\"/static/media/red-tatt-1200x1500.30dadef4.jpg\"></a></div>"
+ FAILEDCOMPONENT FIX: 19: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 20: [".inventory_item:nth-child(6) > .inventory_item_description > .inventory_item_label"]
+ FAILEDCOMPONENTSOURCE: 20: "<div class=\"inventory_item_label\">"
+ FAILEDCOMPONENT FIX: 20: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ FAILEDCOMPONENT: 21: [".inventory_item:nth-child(6) > .inventory_item_description > .pricebar > .inventory_item_price"]
+ FAILEDCOMPONENTSOURCE: 21: "<div class=\"inventory_item_price\">$15.99</div>"
+ FAILEDCOMPONENT FIX: 21: "Fix any of the following:\n  Some page content is not contained by landmarks"
+ 
+ 
+
+ VIOLATION # 5
+ IMPACT: critical
+ DESCRIPTION: Ensures select element has an accessible name
+ HELP TEXT: Select element must have an accessible name
+ TAGS: cat.forms,wcag2a,wcag412,section508,section508.22.n,ACT,TTv5,TT5.c
+ FAILURECOUNT: 1
+ 
+ FAILEDCOMPONENT: 1: ["select"]
+ FAILEDCOMPONENTSOURCE: 1: "<select class=\"product_sort_container\" data-test=\"product_sort_container\"><option value=\"az\">Name (A to Z)</option><option value=\"za\">Name (Z to A)</option><option value=\"lohi\">Price (low to high)</option><option value=\"hilo\">Price (high to low)</option></select>"
+ FAILEDCOMPONENT FIX: 1: "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+ 
+ 

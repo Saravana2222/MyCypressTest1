@@ -1,0 +1,17 @@
+[
+    {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "homepageElement" : "Swag Labs"
+    },
+    {
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "homepageElement" : "Epic sadface: Sorry, this user has been locked out."
+    },
+    {
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "homepageElement" : "Epic sadface: Sorry, this user has been locked out."
+    }
+]
